@@ -1,0 +1,18 @@
+{
+  "name": "my-nuxt-site",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "deploy": "npm run generate && gh-pages -d dist"
+  },
+  "dependencies": {
+    "nuxt": "^3.7.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
