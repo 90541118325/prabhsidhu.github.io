@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  router: {
+    base: 'https://github.com/90541118325/my-static-site.git'
+  }
+
   layout: 'default',
   ssr: true,
   target: 'static',
