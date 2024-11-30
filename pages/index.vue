@@ -21,7 +21,7 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Hey! Welcome to My Portfolio</h1>
         <p>I'm Prabhdeep Sidhu, a Web Developer with a passion for creating stunning websites.</p>
         <NuxtLink to="/about" class="cta-button">Learn More About Me</NuxtLink>
       </div>
