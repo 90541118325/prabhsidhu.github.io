@@ -10,10 +10,10 @@
           <span class="bar"></span>
         </div>
         <ul class="navbar-links" :class="{ 'active': menuActive }">
-          <li><router-link to="pages/index.vue">Home</router-link></li>
-          <li><router-link to="pages/about.vue">About</router-link></li>
-          <li><router-link to="pages/blog.vue">Blog</router-link></li>
-          <li><router-link to="pages/contact.vue">Contact</router-link></li>
+          <li><router-link to="prabhsidhu.github.io/pages/index.vue">Home</router-link></li>
+          <li><router-link to="prabhsidhu.github.io/pages/about.vue">About</router-link></li>
+          <li><router-link to="prabhsidhu.github.io/pages/blog.vue">Blog</router-link></li>
+          <li><router-link to="prabhsidhu.github.io/pages/contact.vue">Contact</router-link></li>
         </ul>
       </div>
     </nav>
@@ -23,7 +23,7 @@
       <div class="hero-content">
         <h1>Hey! Welcome to My Portfolio</h1>
         <p>I'm Prabhdeep Sidhu, a Web Developer with a passion for creating stunning websites.</p>
-        <NuxtLink to="pages/about.vue" class="cta-button">Learn More About Me</NuxtLink>
+        <NuxtLink to="prabhsidhu.github.io/pages/about.vue" class="cta-button">Learn More About Me</NuxtLink>
       </div>
     </section>
 
@@ -46,7 +46,7 @@
       <div class="container">
         <h2>About Me</h2>
         <p>I am a passionate web developer, originally from Punjab, India. I specialize in building web applications using modern technologies and love working with both front-end and back-end technologies.</p>
-        <NuxtLink to="/about" class="cta-button">More About Me</NuxtLink>
+        <NuxtLink to="prabhsidhu.github.io/about" class="cta-button">More About Me</NuxtLink>
       </div>
     </section>
 
