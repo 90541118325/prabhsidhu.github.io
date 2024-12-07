@@ -25,9 +25,23 @@
     <section class="about-details">
       <div class="container">
         <h2>My Journey</h2>
-        <p>I am a passionate web developer from Punjab, India. With experience in creating responsive websites and web applications, I am proficient in both front-end and back-end technologies.</p>
-        <p>My interest in web development began during my university days, where I explored various technologies, from HTML/CSS to advanced frameworks like Vue.js and Node.js. Over the years, I have worked on various projects, developing websites that are user-friendly, fast, and visually appealing.</p>
-        <p>When I am not coding, I enjoy learning new technologies, contributing to open-source projects, and sharing knowledge with others in the web development community.</p>
+        <p>
+          I am a passionate web developer from Punjab, India. With experience in
+          creating responsive websites and web applications, I am proficient in
+          both front-end and back-end technologies.
+        </p>
+        <p>
+          My interest in web development began during my university days, where
+          I explored various technologies, from HTML/CSS to advanced frameworks
+          like Vue.js and Node.js. Over the years, I have worked on various
+          projects, developing websites that are user-friendly, fast, and
+          visually appealing.
+        </p>
+        <p>
+          When I am not coding, I enjoy learning new technologies, contributing
+          to open-source projects, and sharing knowledge with others in the web
+          development community.
+        </p>
       </div>
     </section>
 
@@ -57,9 +71,9 @@
       <div class="container">
         <p>&copy; 2024 Prabhdeep Singh. All Rights Reserved.</p>
         <div class="social-links">
-          <a href="#" target="_blank">Facebook</a>
-          <a href="#" target="_blank">Twitter</a>
-          <a href="#" target="_blank">LinkedIn</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </footer>
@@ -73,7 +87,11 @@ export default {
     return {
       title: 'Prabhdeep Singh - About Me',
       meta: [
-        { hid: 'description', name: 'description', content: 'About page of Prabhdeep Singh, Web Developer' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'About page of Prabhdeep Singh, Web Developer',
+        },
       ],
     };
   },
@@ -83,18 +101,18 @@ export default {
 <style scoped>
 /* Navbar Styles */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.7); /* Transparent background */
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 15px 20px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
 }
 
 .navbar:hover {
-  background-color: rgba(0, 0, 0, 0.9); /* Darkens on hover */
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar .container {
@@ -115,6 +133,7 @@ export default {
   list-style: none;
   display: flex;
   margin: 0;
+  padding: 0;
 }
 
 .navbar-links li {
@@ -140,7 +159,7 @@ export default {
   padding: 100px 20px;
   text-align: center;
   position: relative;
-  margin-top: 70px; /* To avoid overlap with fixed navbar */
+  margin-top: 70px;
 }
 
 .hero-content h1 {
@@ -192,6 +211,8 @@ export default {
 .skills-list {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .skill-item {
@@ -200,6 +221,7 @@ export default {
   border-radius: 10px;
   width: 30%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .skill-item h3 {
@@ -237,18 +259,16 @@ export default {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .skills .container {
+  .skills-list {
     flex-direction: column;
-    align-items: center;
   }
 
   .skill-item {
-    width: 80%;
-    margin-bottom: 20px;
+    width: 100%;
   }
 
   .navbar-links {
-    display: none; /* Hide menu on smaller screens */
+    display: none;
   }
 
   .navbar-logo {
