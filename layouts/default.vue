@@ -16,10 +16,10 @@
     <div v-if="menuOpen" class="mobile-nav">
       <ul class="mobile-nav-list">
         <li><NuxtLink to="/" class="mobile-nav-link">Home</NuxtLink></li>
-        <li><NuxtLink to="/about" class="mobile-nav-link">About</NuxtLink></li>
-        <li><NuxtLink to="/portfolio" class="mobile-nav-link">Portfolio</NuxtLink></li>
-        <li><NuxtLink to="/blog" class="mobile-nav-link">Blog</NuxtLink></li>
-        <li><NuxtLink to="/contact" class="mobile-nav-link">Contact</NuxtLink></li>
+        <li><NuxtLink to="pages/about.vue" class="mobile-nav-link">About</NuxtLink></li>
+        <li><NuxtLink to="pages/portfolio.vue" class="mobile-nav-link">Portfolio</NuxtLink></li>
+        <li><NuxtLink to="pages/blog.vue" class="mobile-nav-link">Blog</NuxtLink></li>
+        <li><NuxtLink to="pages/contact.vue" class="mobile-nav-link">Contact</NuxtLink></li>
       </ul>
     </div>
   </div>
