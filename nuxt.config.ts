@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   router: {
-    base: 'https://github.com/90541118325/prabhsidhu.github.io.'
+    base: '/prabhsidhu.github.io/'
   }
 
   layout: 'default',
