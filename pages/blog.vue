@@ -5,10 +5,10 @@
         <div class="container">
           <router-link to="/" class="navbar-logo">Prabhdeep Singh</router-link>
           <ul class="navbar-links">
-            <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/">Home</router-link></li>
-            <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/about">About</router-link></li>
-            <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/blog" class="active-link">Blog</router-link></li>
-            <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/contact">Contact</router-link></li>
+            <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/pages/index.vue">Home</router-link></li>
+            <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/pages/about.vue">About</router-link></li>
+            <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/pages/blog.vue" class="active-link">Blog</router-link></li>
+            <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/pages/contact">Contact</router-link></li>
           </ul>
         </div>
       </nav>
