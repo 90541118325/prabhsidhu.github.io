@@ -10,10 +10,10 @@
           <span class="bar"></span>
         </div>
         <ul class="navbar-links" :class="{ 'active': menuActive }">
-          <li><router-link to="pages/index.vue/">Home</router-link></li>
-          <li><router-link to="pages/index.vue/about">About</router-link></li>
-          <li><router-link to="pages/index.vue/blog">Blog</router-link></li>
-          <li><router-link to="pages/index.vue/contact">Contact</router-link></li>
+          <li><router-link to="index.vue/">Home</router-link></li>
+          <li><router-link to="about">About</router-link></li>
+          <li><router-link to="blog">Blog</router-link></li>
+          <li><router-link to="contact">Contact</router-link></li>
         </ul>
       </div>
     </nav>
