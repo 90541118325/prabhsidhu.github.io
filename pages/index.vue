@@ -3,17 +3,17 @@
     <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
-        <router-link to="pages/index.vue/" class="navbar-logo">Prabhdeep Singh</router-link>
+        <router-link to="pages/index.vue" class="navbar-logo">Prabhdeep Singh</router-link>
         <div class="navbar-toggle" @click="toggleMenu">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
         <ul class="navbar-links" :class="{ 'active': menuActive }">
-          <li><router-link to="index.vue/">Home</router-link></li>
-          <li><router-link to="about.vue">About</router-link></li>
-          <li><router-link to="blog.vue">Blog</router-link></li>
-          <li><router-link to="contact.vue">Contact</router-link></li>
+          <li><router-link to="pages/index.vue">Home</router-link></li>
+          <li><router-link to="pages/about.vue">About</router-link></li>
+          <li><router-link to="pages/blog.vue">Blog</router-link></li>
+          <li><router-link to="pages/contact.vue">Contact</router-link></li>
         </ul>
       </div>
     </nav>
@@ -23,7 +23,7 @@
       <div class="hero-content">
         <h1>Hey! Welcome to My Portfolio</h1>
         <p>I'm Prabhdeep Sidhu, a Web Developer with a passion for creating stunning websites.</p>
-        <NuxtLink to="pages/index.vue/about" class="cta-button">Learn More About Me</NuxtLink>
+        <NuxtLink to="pages/about.vue" class="cta-button">Learn More About Me</NuxtLink>
       </div>
     </section>
 
