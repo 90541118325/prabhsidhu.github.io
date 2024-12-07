@@ -5,10 +5,15 @@
       <div class="container">
         <router-link to="/" class="navbar-logo">Prabhdeep Singh</router-link>
         <ul class="navbar-links">
-          <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/">Home</router-link></li>
-          <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io/about/">About</router-link></li>
-          <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io//blog">Blog</router-link></li>
-          <li><router-link to="https://90541118325.github.io/prabhsidhu.github.io//contact">Contact</router-link></li>
+
+          
+          
+          
+          <li><nuxt-link to="/">Home</nuxt-link></li>
+          <li><nuxt-link to="/about">About</nuxt-link></li>
+          <li><nuxt-link to="/portfolio">Portfolio</nuxt-link></li>
+          <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+          <li><nuxt-link to="/contact">Contact</nuxt-link></li>
         </ul>
       </div>
     </nav>
